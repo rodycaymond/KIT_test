@@ -8,6 +8,7 @@ body, html {
 header {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .head-container {
     background-image: linear-gradient(rgba(49, 49, 49, 1), 70%, rgba(49,49,49,0));
@@ -19,7 +20,7 @@ header {
 .logo {
     height: 32px;
     width: auto;
-    margin-left: 15%;
+    margin-left: 30%;
     margin-top: 15px;
 }
 .nav{
@@ -28,13 +29,20 @@ header {
     justify-content: space-evenly;
     width: 50%;
 }
-.nav p {
+.nav p{
     color: rgb(248, 234, 234);
     border: 2px solid rgb(248, 234, 234);
     border-radius: 10px;
     margin: 24px;
     padding: 0px 10px;
     text-align: center;
+}
+.nav-buttons {
+    transition: 0.5s;
+}
+.nav-buttons:hover {
+    background-color: rgb(248, 234, 234);
+    color: rgb(44, 44, 44);
 }
 a {
     text-decoration: none;
@@ -45,7 +53,7 @@ a {
     background-repeat: no-repeat;
     height: 650px;
 }
-.banner {
+#banner {
     position: relative;
     top: 40%;
     left: 10%;
@@ -53,9 +61,20 @@ a {
     border-radius: 5px;
     width: fit-content;
     font-size: 1.5em;
-    background-color: rgba(49,49,49,0.7);
     line-height: 2em;
     text-align: left;
+}
+#banH1 {
+    background-image: linear-gradient(to right, rgba(49,49,49,0), 5%, rgba(49,49,49,0.8), 95%, rgba(49,49,49,0));
+    margin: 0;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+#banP {
+    background-image: linear-gradient(to right, rgba(49,49,49,0), 5%, rgba(49,49,49,0.8), 95%, rgba(49,49,49,0));
+    margin: 0;
+    padding: 0;
+    width: fit-content;
 }
 .s1-container{
     display: flex;
@@ -141,7 +160,6 @@ a {
 .inner-image {
     width: 400px;
     margin: auto;
-    box-shadow: 15px 15px 20px rgb(44, 44, 44);
 }
 .s2-anchor {
     color: whitesmoke;
@@ -184,7 +202,21 @@ a {
 }
 .s3-left h1:hover {
     text-shadow: 15px 15px 20px rgb(0, 0, 0);
-    font-size: 36px;
+    cursor: pointer;
+}
+#hidden {
+    transform: translateX(-400px);
+    text-align: center;
+    width: 75%;
+    color: rgb(70, 116, 156);
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: 1s;
+}
+#s3leftshift {
+    transform: translateY(80px);
+    transition: 1s;
+    overflow: hidden;
 }
 .s3-right {
     background-color: rgb(70, 116, 156);
@@ -194,7 +226,7 @@ a {
     padding: 30px 0px;
     color: whitesmoke;
 }
-.s3-right h1, p {
+.s3-right h1,p{
     width: 80%;
     margin: auto;
     line-height: 1.5em;
@@ -218,8 +250,9 @@ a {
     width: 50%;
 }
 .foot-left img {
-    width: 100px;
+    width: 150px;
     height: auto;
+    margin-left: 20%;
 }
 .foot-right {
     width: 50%;
