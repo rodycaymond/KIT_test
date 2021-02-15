@@ -1,0 +1,584 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+  }
+
+  /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+  }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+  }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+  }
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-100%);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 30%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+        font-size: 1em;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+  }
