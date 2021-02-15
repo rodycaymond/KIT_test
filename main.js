@@ -41,7 +41,7 @@ function mobNavMove(){
         mobileNav.style.transform = 'translateX(0px)';
         navMoved = true;
     } else if (navMoved){
-        mobileNav.style.transform = 'translateX(-480px)';
+        mobileNav.style.transform = 'translateX(-320px)';
         navMoved = false;
     }
 }
