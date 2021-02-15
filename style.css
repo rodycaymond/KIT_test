@@ -4,6 +4,7 @@
 }
 body, html {
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     position: fixed;
@@ -46,6 +47,18 @@ header {
 }
 a {
     text-decoration: none;
+}
+.menuWrapper {
+    display: none;
+}
+.menuBar {
+    width: 100%;
+    height: 4px;
+    margin: 3px 0px;
+    background-color: rgb(248, 234, 234);
+}
+.mobile-nav {
+    display: none;
 }
 #megatron {
     background-image: url(./images/maxresdefault.jpg);
@@ -217,6 +230,8 @@ a {
     transform: translateY(80px);
     transition: 1s;
     overflow: hidden;
+    width: 95%;
+    margin: auto;
 }
 .s3-right {
     background-color: rgb(70, 116, 156);
@@ -237,6 +252,9 @@ a {
 }
 .s3-right p {
     font-size: 1.25em;
+}
+.mobile-button {
+    display: none;
 }
 #footer {
     background-color: rgb(89, 92, 92);
@@ -265,4 +283,119 @@ a {
     color: whitesmoke;
     border-top: 2px solid whitesmoke;
     margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 480px){
+    header {
+        max-width: 480px;
+    }
+    body, html {
+        max-width: 480px;
+    }
+    header {
+        position: static;
+        background-color:rgb(89, 92, 92);
+        z-index: 10;
+    }
+    .head-container {
+        background-image: none;
+    }
+    .logo {
+        margin-bottom: 5px;
+        background: url('./images/Copy\ of\ KIT\ logo\ new.png');
+    }
+    .nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(70, 116, 156);
+        position: absolute;
+        width: 100%;
+        padding: 5px 0px;
+        transition: 1s;
+        transform: translateX(-480px);
+    }
+    #mobile-nav a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    #mobile-nav p {
+        padding: 3px;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        color: whitesmoke;
+        width: fit-content;
+    }
+    .menuWrapper {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    .menuIcon {
+        width: 32px;
+        height: 100%;
+        margin-right: 48px;
+        margin-top: 20px;
+    }
+    .menuIcon:hover {
+        cursor: pointer;
+    }
+    #megatron {
+        height: 500px;
+    }
+    #banner {
+        width: 90%;
+        margin: auto;
+        position: relative;
+        top: 40%;
+        left: 0;
+        text-align: center;
+    }
+    .s1-right {
+        width: 100%;
+    }
+    .s1-r-container {
+        margin: auto;
+        text-align: center;
+    }
+    .s1-left {
+        display: none;
+    }
+    .s2-left {
+        width: 100%;
+    }
+    .s2-left p {
+        text-align: center;
+    }
+    .s2-right {
+        display: none;
+    }
+    .s3-left {
+        display: none;
+    }
+    .s3-right {
+        width: 100%;
+    }
+    .s3-right h1,p {
+        text-align: center;
+    }
+    .mobile-button {
+        display: inherit;
+        font-size: 24px;
+        padding: 5px 5px 10px 5px;
+        border-radius: 5px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        height: 24px;
+        background-image: url('./images/web-image\ copy.png');
+        border: 2px solid whitesmoke;
+    }
+    .mobile-button a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
 }
