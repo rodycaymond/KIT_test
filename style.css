@@ -286,13 +286,7 @@ a {
 }
 
 
-@media only screen and (max-width: 480px){
-    /*header {
-        max-width: 320px;
-    }
-    body, html {
-        max-width: 320px;
-    }*/
+@media only screen and (max-width: 900px){
     header {
         position: static;
         background-color:rgb(89, 92, 92);
@@ -402,3 +396,4 @@ a {
         color: whitesmoke;
     }
 }
+
