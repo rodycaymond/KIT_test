@@ -2,8 +2,8 @@
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (min-width: 320px) 
+  and (max-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2){
     header {
         position: static;
@@ -119,8 +119,8 @@
 
 /* Portrait and Landscape */
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
+and (min-width: 320px) 
+and (max-width: 568px)
 and (-webkit-min-device-pixel-ratio: 2) {
     header {
         position: static;
@@ -236,8 +236,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     header {
         position: static;
@@ -353,8 +353,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     header {
         position: static;
@@ -470,8 +470,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (min-width: 375px) 
+  and (max-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     header {
         position: static;
