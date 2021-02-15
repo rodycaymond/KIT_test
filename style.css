@@ -57,7 +57,7 @@ a {
     margin: 3px 0px;
     background-color: rgb(248, 234, 234);
 }
-.mobile-nav {
+#mobile-nav {
     display: none;
 }
 #megatron {
