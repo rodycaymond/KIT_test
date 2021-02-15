@@ -4,6 +4,7 @@ var button2 = document.getElementById('s2-b2');
 var button3 = document.getElementById('s3-b3');
 var button4 = document.getElementById('s4-b4');
 var button5 = document.getElementById('s5-b5');
+var mobileNav = document.getElementById('mobile-nav');
 
 var s3LeftShift = document.getElementById('s3leftshift');
 var hidden = document.getElementById('hidden');
@@ -34,4 +35,13 @@ function wordsAppear() {
     hidden.style.color = 'whitesmoke';
     };
 };
-
+var navMoved = false;
+function mobNavMove(){
+    if (!navMoved){
+        mobileNav.style.transform = 'translateX(0px)';
+        navMoved = true;
+    } else if (navMoved){
+        mobileNav.style.transform = 'translateX(-480px)';
+        navMoved = false;
+    }
+}
