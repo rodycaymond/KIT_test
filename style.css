@@ -287,12 +287,12 @@ a {
 
 
 @media only screen and (min-width: 320px){
-    header {
+    /*header {
         max-width: 320px;
     }
     body, html {
         max-width: 320px;
-    }
+    }*/
     header {
         position: static;
         background-color:rgb(89, 92, 92);
@@ -313,10 +313,10 @@ a {
         justify-content: space-evenly;
         background-color: rgb(70, 116, 156);
         position: absolute;
-        width: 320px;
+        width: 100%;
         padding: 5px 0px;
         transition: 1s;
-        transform: translateX(-320px);
+        transform: translateX(-100%);
     }
     #mobile-nav a {
         text-decoration: none;
