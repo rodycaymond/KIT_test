@@ -286,12 +286,12 @@ a {
 }
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 320px){
     header {
-        max-width: 480px;
+        max-width: 320px;
     }
     body, html {
-        max-width: 480px;
+        max-width: 320px;
     }
     header {
         position: static;
@@ -313,10 +313,10 @@ a {
         justify-content: space-evenly;
         background-color: rgb(70, 116, 156);
         position: absolute;
-        width: 100%;
+        width: 320px;
         padding: 5px 0px;
         transition: 1s;
-        transform: translateX(-480px);
+        transform: translateX(-320px);
     }
     #mobile-nav a {
         text-decoration: none;
@@ -350,12 +350,13 @@ a {
         width: 90%;
         margin: auto;
         position: relative;
-        top: 40%;
+        top: 30%;
         left: 0;
         text-align: center;
     }
     .s1-right {
         width: 100%;
+        font-size: 1em;
     }
     .s1-r-container {
         margin: auto;
@@ -366,6 +367,7 @@ a {
     }
     .s2-left {
         width: 100%;
+        font-size: 1em;
     }
     .s2-left p {
         text-align: center;
@@ -378,6 +380,7 @@ a {
     }
     .s3-right {
         width: 100%;
+        font-size: 1em;
     }
     .s3-right h1,p {
         text-align: center;
