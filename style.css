@@ -12,7 +12,7 @@ header {
     z-index: 10;
 }
 .head-container {
-    background-image: linear-gradient(rgba(49, 49, 49, 1), 70%, rgba(49,49,49,0));
+    background-color: rgba(49,49,49,0.8);
     display: flex;
 }
 .image-container {
@@ -27,7 +27,7 @@ header {
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 50%;
 }
 .nav p{
@@ -56,7 +56,6 @@ a {
     height: 4px;
     margin: 3px 0px;
     background-color: rgb(248, 234, 234);
-    border-radius: 10%;
 }
 #mobile-nav {
     display: none;
@@ -73,7 +72,7 @@ a {
     left: 10%;
     color:rgb(248, 234, 234);
     border-radius: 5px;
-    width: fit-content;
+    width: 80%;
     font-size: 1.5em;
     line-height: 2em;
     text-align: left;
@@ -82,13 +81,13 @@ a {
     background-image: linear-gradient(to right, rgba(49,49,49,0), 5%, rgba(49,49,49,0.8), 95%, rgba(49,49,49,0));
     margin: 0;
     padding-bottom: 5px;
-    width: fit-content;
+    width: 60%;
 }
 #banP {
     background-image: linear-gradient(to right, rgba(49,49,49,0), 5%, rgba(49,49,49,0.8), 95%, rgba(49,49,49,0));
     margin: 0;
     padding: 0;
-    width: fit-content;
+    width: 50%;
 }
 .s1-container{
     display: flex;
@@ -177,7 +176,7 @@ a {
 }
 .s2-anchor {
     color: whitesmoke;
-    width: fit-content;
+    width: 140px;
     padding: 10px 20px;
     margin: auto;
     background-color: rgb(14, 63, 107);
@@ -305,7 +304,7 @@ a {
     }
     #mobile-nav {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         background-color: rgb(70, 116, 156);
         position: absolute;
         width: 100%;
@@ -386,7 +385,7 @@ a {
         padding: 5px 5px 10px 5px;
         border-radius: 5px;
         text-align: center;
-        width: 50%;
+        width: 150px;
         margin: auto;
         height: 24px;
         background-image: url('./images/web-image\ copy.png');
@@ -397,4 +396,3 @@ a {
         color: whitesmoke;
     }
 }
-
